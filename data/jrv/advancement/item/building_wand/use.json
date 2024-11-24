@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:jigsaw",
+            "predicates": {
+              "minecraft:custom_data": "{item:building_wand}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "jrv:item/building_wand/use"
+    }
+  }
+  

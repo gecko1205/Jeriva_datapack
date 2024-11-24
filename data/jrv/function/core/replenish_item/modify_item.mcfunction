@@ -1,0 +1,1 @@
+$item modify entity @s weapon.$(slot) [{"function":"minecraft:set_components","components":{"minecraft:use_remainder":$(use_remainder)}},{"function":"minecraft:copy_custom_data","source":{"type":"minecraft:storage","source":"jrv:default"},"ops":[{"source":"false","target":"cooldown","op":"replace"}]}]
