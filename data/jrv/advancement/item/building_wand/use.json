@@ -13,7 +13,7 @@
       }
     },
     "rewards": {
-      "function": "jrv:item/building_wand/use"
+      "function": "jrv:item/building_wand/logic/use"
     }
   }
   

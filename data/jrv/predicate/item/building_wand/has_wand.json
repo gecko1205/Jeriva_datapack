@@ -1,0 +1,48 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "offhand": {
+              "items": "minecraft:jigsaw",
+              "predicates": {
+                "minecraft:custom_data": "{item:building_wand}"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "hotbar.*": {
+              "items": "minecraft:jigsaw",
+              "predicates": {
+                "minecraft:custom_data": "{item:building_wand}"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "inventory.*": {
+              "items": "minecraft:jigsaw",
+              "predicates": {
+                "minecraft:custom_data": "{item:building_wand}"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+  

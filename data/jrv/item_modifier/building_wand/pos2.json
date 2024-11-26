@@ -1,0 +1,26 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:item_model": "jrv:building_wand/pos2"
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      [
+        {
+          "text": "Modo: ",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "Preencher",
+          "color": "blue",
+          "italic": false
+        }
+      ]
+    ],
+    "mode": "replace_all"
+  }
+]

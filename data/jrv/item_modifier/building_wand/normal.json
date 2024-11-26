@@ -1,0 +1,26 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:item_model": "jrv:building_wand/normal"
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      [
+        {
+          "text": "Modo: ",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": "Normal",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    ],
+    "mode": "replace_all"
+  }
+]

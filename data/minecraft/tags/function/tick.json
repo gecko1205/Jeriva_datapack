@@ -1,5 +1,6 @@
 {
     "values": [
-        "jrv:tick"
+        "jrv:tick",
+        "jrv:item/building_wand/logic/tick"
     ]
 }

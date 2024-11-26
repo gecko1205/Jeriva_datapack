@@ -1,0 +1,1 @@
+$execute store success score has_players jrv.item.building_wand if entity @a[x=$(pos1_x),dx=$(dx),y=$(pos1_y),dy=$(dy),z=$(pos1_z),dz=$(dz)]

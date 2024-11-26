@@ -18,7 +18,7 @@
           {
             "condition": "minecraft:match_tool",
             "predicate": {
-              "items": "minecraft:ominous_trial_key"
+              "items": "minecraft:jigsaw"
             }
           }
         ]
@@ -26,6 +26,6 @@
     }
   },
   "rewards": {
-    "function": "jrv:item/building_wand/reward"
+    "function": "jrv:item/building_wand/acquire"
   }
 }
