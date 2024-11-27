@@ -18,4 +18,4 @@ execute if score pos jrv.item.building_wand matches 0 unless items entity @a[gam
 
 execute if score pos jrv.item.building_wand matches 0 if items entity @a[gamemode=!spectator,nbt={SelectedItem:{id:"minecraft:jigsaw",components:{"minecraft:custom_data":{item:building_wand}}}}] weapon.offhand * run item modify entity @a[gamemode=!spectator,nbt={SelectedItem:{id:"minecraft:jigsaw",components:{"minecraft:custom_data":{item:building_wand}}}}] weapon.mainhand jrv:building_wand/normal 
 
-execute as @a[predicate=jrv:item/building_wand/has_wand] if items entity @s weapon.offhand jigsaw[custom_data={item:building_wand}] run item modify entity @s weapon.offhand jrv:building_wand/normal
+execute as @a if items entity @s weapon.offhand jigsaw[custom_data~{item:building_wand}] run item modify entity @s weapon.offhand jrv:building_wand/normal
