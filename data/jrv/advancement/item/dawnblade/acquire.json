@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:torchflower"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "jrv:item/dawnblade/acquire"
+  }
+}

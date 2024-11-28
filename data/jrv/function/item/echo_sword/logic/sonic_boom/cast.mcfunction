@@ -9,12 +9,9 @@ scoreboard players reset step jrv.item.echo_sword
 scoreboard players set range jrv.item.echo_sword 20
 
 execute anchored eyes positioned ^ ^ ^1 run function jrv:item/echo_sword/logic/sonic_boom/ray
-
-tag @s remove jrv.item.echo_sword.attacker
-tag @e remove jrv.item.echo_sword.hit
-kill @n[type=armor_stand,tag=jrv.item.echo_sword.axe]
-
 execute if entity @s[gamemode=survival] run function jrv:item/echo_sword/logic/sonic_boom/gamemode
 
 scoreboard players set $strength player_motion.api.launch -8000
 function player_motion:api/launch_looking
+
+schedule function jrv:item/echo_sword/logic/sonic_boom/delay 1t

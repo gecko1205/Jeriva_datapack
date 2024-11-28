@@ -1,0 +1,1 @@
+execute as @e[tag=jrv.item.echo_sword.hit] run function jrv:item/echo_sword/logic/sonic_boom/damage

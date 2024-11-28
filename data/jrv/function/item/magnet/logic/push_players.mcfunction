@@ -1,2 +1,2 @@
-scoreboard players set $strength player_motion.api.launch 20000
+scoreboard players set $strength player_motion.api.launch -20000
 function player_motion:api/launch_looking
