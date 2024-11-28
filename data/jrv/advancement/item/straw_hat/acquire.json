@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:netherite_hoe"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "jrv:item/straw_hat/acquire"
+    }
+  }
+  

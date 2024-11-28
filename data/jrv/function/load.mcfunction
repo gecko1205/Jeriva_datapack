@@ -38,3 +38,4 @@ scoreboard players set hits jrv.item.echo_sword 0
 scoreboard players set hold jrv.item.echo_sword -1
 
 scoreboard objectives add jrv.item.magnet dummy
+scoreboard objectives add jrv.item.straw_hat dummy
