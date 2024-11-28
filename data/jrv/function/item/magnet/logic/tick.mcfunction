@@ -1,0 +1,1 @@
+execute at @p[predicate=jrv:item/magnet/magnet_in_hotbar,gamemode=!spectator] as @e[limit=1,sort=furthest,type=item,distance=..4,nbt={PickupDelay:0s}] run function jrv:item/magnet/logic/pull

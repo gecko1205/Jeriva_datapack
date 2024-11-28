@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{item:magnet}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "jrv:item/magnet/logic/use"
+  }
+}

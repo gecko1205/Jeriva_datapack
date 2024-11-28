@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:compass"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "jrv:item/magnet/acquire"
+  }
+}

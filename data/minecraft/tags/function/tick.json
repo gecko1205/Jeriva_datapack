@@ -2,6 +2,7 @@
     "values": [
         "jrv:tick",
         "jrv:item/building_wand/logic/tick",
-        "jrv:item/echo_sword/logic/tick"
+        "jrv:item/echo_sword/logic/tick",
+        "jrv:item/magnet/logic/tick"
     ]
 }
