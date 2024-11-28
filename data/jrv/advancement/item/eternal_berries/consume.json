@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {},
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{item:eternal_berries}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "jrv:item/eternal_berries/logic/consume"
+  }
+}
