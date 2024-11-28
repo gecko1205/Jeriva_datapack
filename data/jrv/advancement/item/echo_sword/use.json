@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "player": {
+            "equipment": {}
+          },
+          "item": {
+            "items": "minecraft:netherite_sword",
+            "components": {
+              "minecraft:custom_data": "{item:echo_sword}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "jrv:item/echo_sword/logic/use"
+    }
+  }
+  
