@@ -34,7 +34,7 @@ scoreboard objectives add jrv.item.building_wand dummy
 scoreboard players set pos jrv.item.building_wand 0
 
 scoreboard objectives add jrv.item.echo_sword dummy
-scoreboard players set hits jrv.item.echo_sword 0
+scoreboard players set kills jrv.item.echo_sword 0
 scoreboard players set hold jrv.item.echo_sword -1
 
 scoreboard objectives add jrv.item.magnet dummy
