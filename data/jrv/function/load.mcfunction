@@ -8,7 +8,9 @@ scoreboard players set 2 jrv.constant 2
 scoreboard players set 3 jrv.constant 4
 scoreboard players set 6 jrv.constant 6
 scoreboard players set 10 jrv.constant 10
+scoreboard players set 20 jrv.constant 20
 scoreboard players set 25 jrv.constant 25
+scoreboard players set 60 jrv.constant 60
 scoreboard players set 64 jrv.constant 64
 scoreboard players set 100 jrv.constant 100
 scoreboard players set 360 jrv.constant 360
@@ -20,6 +22,7 @@ scoreboard players set 24000 jrv.constant 24000
 execute in overworld run forceload add 0 0
 execute in the_nether run forceload add 0 0
 execute in the_end run forceload add 0 0
+execute in jrv:vault run forceload add 0 0
 
 team add jrv.color.light_purple
 team modify jrv.color.light_purple color light_purple
@@ -39,3 +42,4 @@ scoreboard players set hold jrv.item.echo_sword -1
 
 scoreboard objectives add jrv.item.magnet dummy
 scoreboard objectives add jrv.item.straw_hat dummy
+scoreboard objectives add jrv.item.invisibility_cloak dummy

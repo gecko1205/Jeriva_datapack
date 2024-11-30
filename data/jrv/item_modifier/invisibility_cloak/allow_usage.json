@@ -1,0 +1,28 @@
+[
+    {
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:consumable": {
+          "consume_seconds": 1,
+          "animation": "bow",
+          "sound": "intentionally_empty",
+          "has_consume_particles": false
+        },
+        "minecraft:item_model": "jrv:invisibility_cloak/normal"
+      }
+    },
+    {
+      "function": "minecraft:copy_custom_data",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "jrv:default"
+      },
+      "ops": [
+        {
+          "source": "false",
+          "target": "cooldown",
+          "op": "replace"
+        }
+      ]
+    }
+  ]

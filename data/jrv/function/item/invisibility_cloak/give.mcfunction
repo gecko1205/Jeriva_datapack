@@ -1,0 +1,1 @@
+give @s jigsaw[consumable={consume_seconds:1,animation:"bow",has_consume_particles:false,sound:"intentionally_empty"},item_model="jrv:invisibility_cloak/normal",custom_data={item:invisibility_cloak},item_name='"Capa da invisibilidade"',rarity="epic"] 1

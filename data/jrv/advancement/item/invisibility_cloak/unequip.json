@@ -1,0 +1,23 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "feet": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "invisibility_cloak.disabled": true
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "jrv:item/invisibility_cloak/logic/unequip"
+    }
+  }

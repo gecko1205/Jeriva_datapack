@@ -1,0 +1,23 @@
+[
+    {
+      "function": "minecraft:set_components",
+      "components": {
+        "!minecraft:consumable": {},
+        "minecraft:item_model": "jrv:invisibility_cloak/cooldown"
+      }
+    },
+    {
+      "function": "minecraft:copy_custom_data",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "jrv:default"
+      },
+      "ops": [
+        {
+          "source": "true",
+          "target": "cooldown",
+          "op": "replace"
+        }
+      ]
+    }
+  ]

@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:jigsaw",
+          "predicates": {
+            "minecraft:custom_data": "{item:invisibility_cloak}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "jrv:item/invisibility_cloak/logic/use"
+  }
+}
