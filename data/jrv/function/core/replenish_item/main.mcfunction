@@ -1,2 +1,2 @@
-execute as @a if items entity @s weapon.mainhand *[custom_data~{cooldown:true}] run function jrv:core/replenish_item/copy_mainhand
-execute as @a if items entity @s weapon.offhand *[custom_data~{cooldown:true}] run function jrv:core/replenish_item/copy_offhand
+execute as @a if items entity @s weapon.mainhand *[custom_data~{replenish:true}] run function jrv:core/replenish_item/copy_mainhand
+execute as @a if items entity @s weapon.offhand *[custom_data~{replenish:true}] run function jrv:core/replenish_item/copy_offhand
