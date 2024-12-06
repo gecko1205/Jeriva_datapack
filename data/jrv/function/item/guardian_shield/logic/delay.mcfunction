@@ -1,0 +1,1 @@
+execute as @p[tag=jrv.item.guardian_shield.blocked] at @s run function jrv:item/guardian_shield/logic/calculate_damage

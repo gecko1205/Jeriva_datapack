@@ -1,0 +1,50 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "offhand": {
+                      "items": "minecraft:shield",
+                      "predicates": {
+                        "minecraft:custom_data": "{item:guardian_shield}"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "items": "minecraft:shield",
+                      "predicates": {
+                        "minecraft:custom_data": "{item:guardian_shield}"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "damage": {
+          "blocked": true
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "jrv:item/guardian_shield/logic/use"
+  }
+}

@@ -1,0 +1,2 @@
+scoreboard players set @s jrv.item.guardian_shield.timer 0
+give @s jigsaw[item_model="jrv:guardian_shield/shield",item_name='"Escudo do guardião"',rarity="epic",custom_data={item:guardian_shield,broken:true},enchantment_glint_override=false,repairable={items:"shield"},enchantments={levels:{"minecraft:mending":1,"minecraft:unbreaking":3}},max_damage=336,damage=336,max_stack_size=1] 1

@@ -1,0 +1,1 @@
+execute as @a run attribute @s jump_strength modifier remove jrv.item.guardian_shield
