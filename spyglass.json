@@ -4,7 +4,7 @@
 			{
 				"if": [
 					{ "category": ["block", "entity_type", "item"], "namespace": "minecraft" },
-					{ "category": ["advancement", "bossbar", "objective", "team", "function", "attribute", "predicate", "item_modifier"] }
+					{ "category": ["advancement", "bossbar", "objective", "team", "function", "attribute", "predicate", "item_modifier", "particle_type"] }
 				],
 				"then": { "report": "warning" }
 			},

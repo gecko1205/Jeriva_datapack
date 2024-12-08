@@ -1,0 +1,1 @@
+give @p bow[custom_data={item:precision_bow},item_model="jrv:precision_bow/normal",item_name='"Arco de precisão"',rarity="epic"] 1

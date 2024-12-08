@@ -43,6 +43,7 @@ scoreboard players set hold jrv.item.echo_sword -1
 scoreboard objectives add jrv.item.magnet dummy
 scoreboard objectives add jrv.item.straw_hat dummy
 scoreboard objectives add jrv.item.invisibility_cloak dummy
+scoreboard objectives add jrv.item.precision_bow.timer dummy
 
 scoreboard objectives add jrv.item.guardian_shield dummy
 scoreboard objectives add jrv.item.guardian_shield.timer dummy

@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "equipment": {}
+        },
+        "item": {
+          "items": "minecraft:bow",
+          "predicates": {
+            "minecraft:custom_data": {
+              "item": "precision_bow"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "jrv:item/precision_bow/logic/aim"
+  }
+}
