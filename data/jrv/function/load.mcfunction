@@ -5,7 +5,7 @@ scoreboard objectives add jrv.rewards dummy
 scoreboard objectives add jrv.constant dummy
 scoreboard players set 1 jrv.constant 1
 scoreboard players set 2 jrv.constant 2
-scoreboard players set 3 jrv.constant 4
+scoreboard players set 3 jrv.constant 3
 scoreboard players set 6 jrv.constant 6
 scoreboard players set 10 jrv.constant 10
 scoreboard players set 20 jrv.constant 20
