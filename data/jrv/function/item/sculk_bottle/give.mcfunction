@@ -1,0 +1,1 @@
+give @s jigsaw[max_stack_size=1,item_model="jrv:sculk_bottle/empty",item_name='"Frascodesculk"',custom_data={item:sculk_bottle,full:false},consumable={consume_seconds:9999999,animation:"none",sound:"intentionally_empty",has_consume_particles:false},use_cooldown={seconds:0.5,cooldown_group:"sculk_bottle"},lore=["{\"text\":\"Vazio\",\"color\":\"gray\",\"italic\":false}"]]
