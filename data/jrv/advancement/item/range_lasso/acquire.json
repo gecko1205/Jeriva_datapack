@@ -1,0 +1,21 @@
+{
+    "parent": "minecraft:husbandry/root",
+    "criteria": {
+      "bred": {
+        "trigger": "minecraft:bred_animals",
+        "conditions": {
+          "child": {
+            "type": "cow"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "bred"
+      ]
+    ],
+    "rewards": {
+      "function": "jrv:item/range_lasso/acquire"
+    }
+  }
