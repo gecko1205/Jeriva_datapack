@@ -1,0 +1,1 @@
+tag @a remove jrv.item.sculk_bottle

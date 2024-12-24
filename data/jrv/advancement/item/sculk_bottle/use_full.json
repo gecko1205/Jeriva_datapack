@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:jigsaw",
+          "predicates": {
+            "minecraft:custom_data": "{item:sculk_bottle,full:true}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "jrv:item/sculk_bottle/logic/use_full"
+  }
+}
+  
