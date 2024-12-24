@@ -3,9 +3,6 @@
     "requirement": {
       "trigger": "minecraft:using_item",
       "conditions": {
-        "player": {
-          "equipment": {}
-        },
         "item": {
           "items": "minecraft:bow",
           "predicates": {
