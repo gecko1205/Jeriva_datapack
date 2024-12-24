@@ -1,0 +1,1 @@
+$data merge entity @s {leash:[I;$(x),$(y),$(z)]}

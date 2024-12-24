@@ -1,0 +1,1 @@
+execute as @a run attribute @s minecraft:gravity modifier remove jrv.item.range_lasso

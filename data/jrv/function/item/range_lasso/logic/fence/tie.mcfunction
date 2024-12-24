@@ -1,0 +1,2 @@
+execute summon marker run function jrv:item/range_lasso/logic/fence/get_coords
+execute as @e[type=!player,distance=..8] if function jrv:item/range_lasso/logic/fence/player_leashed run function jrv:item/range_lasso/logic/fence/modify_data with storage jrv:item.range_lasso fence
