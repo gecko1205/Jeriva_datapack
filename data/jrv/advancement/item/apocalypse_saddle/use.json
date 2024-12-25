@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "predicates": {
+              "minecraft:custom_data": "{item:apocalypse_saddle}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "jrv:item/apocalypse_saddle/logic/use"
+    }
+  }
+  

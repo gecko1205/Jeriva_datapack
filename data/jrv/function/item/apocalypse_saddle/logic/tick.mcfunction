@@ -1,0 +1,1 @@
+execute as @n[type=zombie_horse,tag=jrv.item.apocalypse_saddle.horse,tag=!jrv.item.apocalypse_saddle.safe] at @s run function jrv:item/apocalypse_saddle/logic/as_horse

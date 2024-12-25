@@ -1,0 +1,2 @@
+execute unless predicate jrv:common/has_passenger run return run function jrv:item/apocalypse_saddle/logic/despawn
+execute unless items entity @s horse.saddle saddle[custom_data={jrv.item.apocalypse_saddle.saddle_item:true}] run function jrv:item/apocalypse_saddle/logic/dismount

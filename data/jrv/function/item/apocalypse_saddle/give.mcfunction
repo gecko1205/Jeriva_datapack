@@ -1,0 +1,1 @@
+give @s jigsaw[consumable={consume_seconds:0.5,animation:"bow",sound:"intentionally_empty",has_consume_particles:false},item_model="jrv:apocalypse_saddle/normal",custom_data={item:apocalypse_saddle},item_name='"Sela do apocalipse"',rarity="epic",use_cooldown={seconds:3,cooldown_group:"apocalypse_saddle"}] 1
