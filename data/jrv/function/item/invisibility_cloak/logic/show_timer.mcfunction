@@ -1,7 +1,0 @@
-execute if score minutes jrv.item.invisibility_cloak matches 1.. if score seconds jrv.item.invisibility_cloak matches 10.. run title @s actionbar ["",{"score":{"name":"minutes","objective":"jrv.item.invisibility_cloak"},"color":"green"},{"text":":","color":"green"},{"score":{"name":"seconds","objective":"jrv.item.invisibility_cloak"},"color":"green"}]
-
-execute if score minutes jrv.item.invisibility_cloak matches 1.. if score seconds jrv.item.invisibility_cloak matches ..9 run title @s actionbar ["",{"score":{"name":"minutes","objective":"jrv.item.invisibility_cloak"},"color":"green"},{"text":":0","color":"green"},{"score":{"name":"seconds","objective":"jrv.item.invisibility_cloak"},"color":"green"}]
-
-execute if score minutes jrv.item.invisibility_cloak matches 0 if score seconds jrv.item.invisibility_cloak matches 10.. run title @s actionbar ["",{"score":{"name":"seconds","objective":"jrv.item.invisibility_cloak"},"color":"green"}]
-
-execute if score minutes jrv.item.invisibility_cloak matches 0 if score seconds jrv.item.invisibility_cloak matches ..9 run title @s actionbar ["",{"text":"0","color":"red"},{"score":{"name":"seconds","objective":"jrv.item.invisibility_cloak"},"color":"red"}]

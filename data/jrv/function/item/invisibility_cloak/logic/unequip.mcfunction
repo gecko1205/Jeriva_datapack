@@ -7,13 +7,15 @@ execute in jrv:vault run function jrv:item/invisibility_cloak/logic/retrieve_inv
 attribute @s armor_toughness modifier remove jrv.item.invisibility_cloak.armor_toughness
 attribute @s armor modifier remove jrv.item.invisibility_cloak.armor
 
-scoreboard players operation cooldown jrv.item.invisibility_cloak = max_ticks jrv.item.invisibility_cloak
-scoreboard players operation cooldown jrv.item.invisibility_cloak -= timer jrv.item.invisibility_cloak
+scoreboard players operation cooldown jrv.item.invisibility_cloak = timer jrv.item.invisibility_cloak
 scoreboard players operation cooldown jrv.item.invisibility_cloak /= 2 jrv.constant
 scoreboard players reset timer jrv.item.invisibility_cloak
 
 # min cooldown: 3s (60 ticks)
-execute unless score cooldown jrv.item.invisibility_cloak matches 60.. run scoreboard players set cooldown jrv.item.invisibility_cloak 60
+execute if score cooldown jrv.item.invisibility_cloak matches ..60 run scoreboard players set cooldown jrv.item.invisibility_cloak 60
+
+# max cooldown: 30s (600 ticks)
+execute if score cooldown jrv.item.invisibility_cloak matches 600.. run scoreboard players set cooldown jrv.item.invisibility_cloak 600
 
 tag @s remove jrv.item.invisibility_cloak.wearing
 particle large_smoke ~ ~.5 ~ .2 .4 .2 0 10 normal @a

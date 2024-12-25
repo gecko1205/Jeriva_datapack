@@ -14,8 +14,6 @@ function jrv:item/invisibility_cloak/logic/fake_armor with storage jrv:item.invi
 execute in jrv:vault run function jrv:item/invisibility_cloak/logic/save_inventory
 function jrv:item/invisibility_cloak/logic/disable_slots
 
-# seconds * 20
-scoreboard players set max_ticks jrv.item.invisibility_cloak 3600
-scoreboard players operation timer jrv.item.invisibility_cloak = max_ticks jrv.item.invisibility_cloak
+scoreboard players set timer jrv.item.invisibility_cloak 1
 
 tag @s add jrv.item.invisibility_cloak.wearing
