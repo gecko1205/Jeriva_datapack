@@ -1,1 +1,1 @@
-$scoreboard players reset $(name) jrv.rewards
+$scoreboard players reset $(id) jrv.rewards
