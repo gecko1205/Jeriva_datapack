@@ -9,6 +9,7 @@
         "jrv:item/invisibility_cloak/logic/tick",
         "jrv:item/guardian_shield/logic/tick",
         "jrv:item/precision_bow/logic/tick",
-        "jrv:item/apocalypse_saddle/logic/tick"
+        "jrv:item/apocalypse_saddle/logic/tick",
+        "jrv:item/adrenaline_syringe/logic/tick"
     ]
 }

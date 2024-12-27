@@ -49,6 +49,7 @@ scoreboard objectives add jrv.item.invisibility_cloak dummy
 scoreboard objectives add jrv.item.precision_bow.timer dummy
 scoreboard objectives add jrv.item.range_lasso dummy
 scoreboard objectives add jrv.item.sculk_bottle dummy
+scoreboard objectives add jrv.item.adrenaline_syringe dummy
 
 scoreboard objectives add jrv.item.guardian_shield dummy
 scoreboard objectives add jrv.item.guardian_shield.timer dummy

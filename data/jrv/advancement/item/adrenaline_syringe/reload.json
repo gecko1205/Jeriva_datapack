@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "predicates": {
+              "minecraft:custom_data": "{item:adrenaline_syringe}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "jrv:item/adrenaline_syringe/logic/reload"
+    }
+  }
+  
