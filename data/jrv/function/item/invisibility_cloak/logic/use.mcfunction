@@ -9,7 +9,7 @@ execute if items entity @s weapon.offhand *[custom_data~{item:invisibility_cloak
 
 execute store result storage jrv:item.invisibility_cloak armor float 1 run attribute @s minecraft:armor get
 execute store result storage jrv:item.invisibility_cloak armor_toughness float 1 run attribute @s minecraft:armor_toughness get
-function jrv:item/invisibility_cloak/logic/fake_armor with storage jrv:item.invisibility_cloak
+#function jrv:item/invisibility_cloak/logic/fake_armor with storage jrv:item.invisibility_cloak
 
 execute in jrv:vault run function jrv:item/invisibility_cloak/logic/save_inventory
 function jrv:item/invisibility_cloak/logic/disable_slots
