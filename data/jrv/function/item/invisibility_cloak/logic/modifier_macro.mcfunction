@@ -1,0 +1,1 @@
+$item modify entity @s container.$(Slot) jrv:invisibility_cloak/allow_usage

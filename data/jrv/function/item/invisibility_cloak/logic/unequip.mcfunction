@@ -4,8 +4,8 @@ execute unless entity @s[tag=jrv.item.invisibility_cloak.wearing] run return fai
 kill @e[type=item,distance=..6,nbt={Item:{components:{"minecraft:custom_data":{invisibility_cloak.disabled:true}}}}]
 execute in jrv:vault run function jrv:item/invisibility_cloak/logic/retrieve_inventory
 
-attribute @s armor_toughness modifier remove jrv.item.invisibility_cloak.armor_toughness
-attribute @s armor modifier remove jrv.item.invisibility_cloak.armor
+#attribute @s armor_toughness modifier remove jrv.item.invisibility_cloak.armor_toughness
+#attribute @s armor modifier remove jrv.item.invisibility_cloak.armor
 
 scoreboard players operation cooldown jrv.item.invisibility_cloak = timer jrv.item.invisibility_cloak
 scoreboard players operation cooldown jrv.item.invisibility_cloak /= 2 jrv.constant
@@ -22,3 +22,5 @@ particle large_smoke ~ ~.5 ~ .2 .4 .2 0 10 normal @a
 playsound item.armor.equip_leather player @a ~ ~ ~ 1 0
 effect clear @s invisibility
 effect clear @s resistance
+
+execute if predicate jrv:item/invisibility_cloak/has_nausea run scoreboard players set cooldown jrv.item.invisibility_cloak 1200

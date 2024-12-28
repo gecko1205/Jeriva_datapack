@@ -41,28 +41,6 @@
           }
         ]
       }
-    },
-    "score": {
-      "trigger": "minecraft:tick",
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:value_check",
-            "value": {
-              "type": "minecraft:score",
-              "target": {
-                "type": "minecraft:fixed",
-                "name": "timer"
-              },
-              "score": "jrv.item.adrenaline_syringe",
-              "scale": 1
-            },
-            "range": {
-              "min": 1200
-            }
-          }
-        ]
-      }
     }
   },
   "rewards": {
