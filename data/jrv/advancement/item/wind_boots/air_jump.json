@@ -1,0 +1,39 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "type_specific": {
+              "type": "minecraft:player",
+              "gamemode": [
+                "survival",
+                "creative",
+                "adventure"
+              ],
+              "input": {
+                "jump": true
+              }
+            },
+            "flags": {
+              "is_swimming": false,
+              "is_on_ground": false,
+              "is_flying": false
+            },
+            "equipment": {
+              "feet": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "item": "wind_boots"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "jrv:item/wind_boots/logic/air_jump"
+    }
+  }

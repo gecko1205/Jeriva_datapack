@@ -1,0 +1,30 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "mainhand": {
+                "items": "minecraft:mace"
+              }
+            }
+          },
+          "damage": {
+            "type": {
+              "direct_entity": {
+                "type": "minecraft:breeze_wind_charge"
+              },
+              "is_direct": false
+            }
+          },
+          "entity": {
+            "type": "minecraft:breeze"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "jrv:item/wind_boots/acquire"
+    }
+  }

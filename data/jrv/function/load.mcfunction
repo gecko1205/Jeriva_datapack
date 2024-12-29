@@ -55,3 +55,6 @@ scoreboard objectives add jrv.item.guardian_shield dummy
 scoreboard objectives add jrv.item.guardian_shield.timer dummy
 scoreboard objectives add jrv.item.guardian_shield.blocked minecraft.custom:minecraft.damage_blocked_by_shield
 scoreboard objectives add jrv.item.guardian_shield.break minecraft.broken:minecraft.shield
+
+scoreboard objectives add jrv.item.wind_boots dummy
+scoreboard objectives add jrv.item.wind_boots.jump minecraft.custom:minecraft.jump
