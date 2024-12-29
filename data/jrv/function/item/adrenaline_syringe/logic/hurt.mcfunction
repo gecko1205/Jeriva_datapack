@@ -8,6 +8,7 @@ effect give @s minecraft:speed 4 6 true
 effect give @s minecraft:night_vision 4 0 true
 effect give @s minecraft:strength 4 0 false
 
+particle falling_dust{block_state:"minecraft:red_concrete"} ~ ~1 ~ .3 .5 .3 1 40
 playsound jrv:item/adrenaline_syringe/heartbeat master @s ~ ~ ~ 100 1
 playsound jrv:item/adrenaline_syringe/flesh master @a ~ ~ ~ 0.7 1.4
 playsound minecraft:block.chain.hit master @a ~ ~ ~ 0.8 2
