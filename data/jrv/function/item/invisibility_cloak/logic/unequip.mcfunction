@@ -2,7 +2,8 @@ advancement revoke @s only jrv:item/invisibility_cloak/unequip
 execute unless entity @s[tag=jrv.item.invisibility_cloak.wearing] run return fail
 
 kill @e[type=item,distance=..6,nbt={Item:{components:{"minecraft:custom_data":{invisibility_cloak.disabled:true}}}}]
-execute in jrv:vault run function jrv:item/invisibility_cloak/logic/retrieve_inventory
+
+execute in jrv:vault run function jrv:item/invisibility_cloak/logic/retrieve_inventory/select_distribution
 
 #attribute @s armor_toughness modifier remove jrv.item.invisibility_cloak.armor_toughness
 #attribute @s armor modifier remove jrv.item.invisibility_cloak.armor
