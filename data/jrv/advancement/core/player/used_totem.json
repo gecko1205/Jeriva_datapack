@@ -1,0 +1,10 @@
+{
+    "criteria": {
+      "totem": {
+        "trigger": "minecraft:used_totem"
+      }
+    },
+    "rewards": {
+      "function": "jrv:core/player/used_totem"
+    }
+  }
