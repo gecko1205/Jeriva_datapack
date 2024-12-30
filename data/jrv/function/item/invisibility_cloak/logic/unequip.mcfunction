@@ -18,10 +18,12 @@ execute if score cooldown jrv.item.invisibility_cloak matches ..60 run scoreboar
 # max cooldown: 30s (600 ticks)
 execute if score cooldown jrv.item.invisibility_cloak matches 600.. run scoreboard players set cooldown jrv.item.invisibility_cloak 600
 
-tag @s remove jrv.item.invisibility_cloak.wearing
 particle large_smoke ~ ~.5 ~ .2 .4 .2 0 10 normal @a
 playsound item.armor.equip_leather player @a ~ ~ ~ 1 0
 effect clear @s invisibility
 effect clear @s resistance
 
-execute if predicate jrv:item/invisibility_cloak/has_nausea run scoreboard players set cooldown jrv.item.invisibility_cloak 1200
+#execute if predicate jrv:item/invisibility_cloak/has_nausea run scoreboard players set cooldown jrv.item.invisibility_cloak 1200
+execute if predicate jrv:item/invisibility_cloak/has_nausea run return run schedule function jrv:item/invisibility_cloak/logic/kill 1t
+tag @s remove jrv.item.invisibility_cloak.wearing
+tag @s remove jrv.core.player.ignore_totem

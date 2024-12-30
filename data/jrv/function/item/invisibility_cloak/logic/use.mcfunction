@@ -17,3 +17,4 @@ function jrv:item/invisibility_cloak/logic/disable_slots
 scoreboard players set timer jrv.item.invisibility_cloak 1
 
 tag @s add jrv.item.invisibility_cloak.wearing
+tag @s add jrv.core.player.ignore_totem
