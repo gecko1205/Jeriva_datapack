@@ -1,0 +1,2 @@
+$kill @e[tag=jrv.item.cardboard_box,tag=!jrv.item.cardboard_box.minecart,scores={jrv.item.cardboard_box.id=$(id)}]
+$execute as @e[tag=jrv.item.cardboard_box.minecart,scores={jrv.item.cardboard_box.id=$(id)},limit=1] run function jrv:item/cardboard_box/logic/drop/as_minecart

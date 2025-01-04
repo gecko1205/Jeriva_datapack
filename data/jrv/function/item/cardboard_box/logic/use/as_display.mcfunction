@@ -1,0 +1,3 @@
+execute if block ~ ~ ~ chest run return run data modify entity @s item.components."minecraft:item_model" set value "jrv:cardboard_box/chest"
+execute if block ~ ~ ~ trapped_chest run return run data modify entity @s item.components."minecraft:item_model" set value "jrv:cardboard_box/trapped_chest"
+execute if block ~ ~ ~ barrel run return run data modify entity @s item.components."minecraft:item_model" set value "jrv:cardboard_box/barrel"

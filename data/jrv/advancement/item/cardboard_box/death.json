@@ -1,0 +1,25 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": {
+            "type_specific": {
+              "type": "minecraft:player",
+              "stats": [
+                {
+                  "type": "minecraft:custom",
+                  "stat": "minecraft:time_since_death",
+                  "value": 0
+                }
+              ]
+            },
+            "nbt": "{Tags:[\"jrv.item.cardboard_box.carrying\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "jrv:item/cardboard_box/logic/drop/death"
+    }
+  }

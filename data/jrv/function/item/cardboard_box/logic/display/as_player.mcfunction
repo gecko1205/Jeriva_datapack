@@ -1,0 +1,2 @@
+$tp @e[tag=jrv.item.cardboard_box.display,scores={jrv.item.cardboard_box.id=$(id)},limit=1] ^ ^-.3 ^1
+$tp @e[tag=jrv.item.cardboard_box.interaction,scores={jrv.item.cardboard_box.id=$(id)},limit=1] ^ ^ ^.1

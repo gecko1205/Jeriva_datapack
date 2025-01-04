@@ -1,0 +1,1 @@
+$data modify storage jrv:item.cardboard_box container_type set from entity @e[tag=jrv.item.cardboard_box.minecart,scores={jrv.item.cardboard_box.id=$(id)},limit=1] DisplayState.Name

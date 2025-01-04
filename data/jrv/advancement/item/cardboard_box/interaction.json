@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:interaction",
+            "nbt": "{Tags:[\"jrv.item.cardboard_box.interaction\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "jrv:item/cardboard_box/logic/place/interaction"
+    }
+  }

@@ -11,6 +11,7 @@
         "jrv:item/precision_bow/logic/tick",
         "jrv:item/apocalypse_saddle/logic/tick",
         "jrv:item/adrenaline_syringe/logic/tick",
-        "jrv:item/wind_boots/logic/tick"
+        "jrv:item/wind_boots/logic/tick",
+        "jrv:item/cardboard_box/logic/tick"
     ]
 }

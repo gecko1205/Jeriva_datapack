@@ -1,0 +1,1 @@
+execute as @e[type=chest_minecart,tag=jrv.item.cardboard_box.minecart,tag=!jrv.item.cardboard_box.break] run function jrv:item/cardboard_box/logic/display/get_minecart_id
