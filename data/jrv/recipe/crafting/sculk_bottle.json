@@ -33,7 +33,8 @@
       },
       "minecraft:lore": [
         "{\"text\": \"Vazio\",\"color\": \"gray\",\"italic\": false}"
-      ]
+      ],
+      "rarity": "common"
     },
     "count": 1
   }
