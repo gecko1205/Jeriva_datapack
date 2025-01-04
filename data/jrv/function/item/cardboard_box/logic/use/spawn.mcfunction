@@ -6,7 +6,7 @@ playsound minecraft:block.chiseled_bookshelf.pickup player @a
 
 function jrv:item/cardboard_box/logic/use/generate_id
 
-summon item_display ~ ~ ~ {billboard:"vertical",teleport_duration:1,Tags:["jrv.item.cardboard_box","jrv.item.cardboard_box.display","jrv.item.cardboard_box.no_id"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[.7f,.7f,.7f]},item:{id:"minecraft:jigsaw",count:1,components:{item_model:"jrv:cardboard_box/closed_box"}}}
+summon item_display ~ ~ ~ {teleport_duration:1,Tags:["jrv.item.cardboard_box","jrv.item.cardboard_box.display","jrv.item.cardboard_box.no_id"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[.7f,.7f,.7f]},item:{id:"minecraft:jigsaw",count:1,components:{item_model:"jrv:cardboard_box/closed_box"}}}
 summon interaction ~ ~ ~ {Tags:["jrv.item.cardboard_box","jrv.item.cardboard_box.interaction","jrv.item.cardboard_box.no_id"],width:0.05f,height:0.05f}
 execute in jrv:vault run summon chest_minecart 0 11 0 {Tags:["jrv.item.cardboard_box","jrv.item.cardboard_box.minecart","jrv.item.cardboard_box.no_id"],NoGravity:true,CustomDisplayTile:true}
 
