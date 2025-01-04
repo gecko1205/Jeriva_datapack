@@ -8,7 +8,7 @@
   ],
   "key": {
     "#": "minecraft:tinted_glass",
-    "o": "minecraft:glass_bottle",
+    "o": "minecraft:echo_shard",
     "@": "minecraft:sculk_catalyst"
   },
   "result": {
