@@ -6,7 +6,7 @@ scoreboard players remove jump_delay jrv.item.wind_boots 1
 execute if entity @s[gamemode=survival] run function jrv:item/wind_boots/logic/gamemode/survival
 execute if entity @s[gamemode=adventure] run function jrv:item/wind_boots/logic/gamemode/adventure
 
-playsound entity.wind_charge.wind_burst player @s ~ ~ ~ 0.7 1
+playsound entity.wind_charge.wind_burst player @a ~ ~ ~ 0.7 1
 particle minecraft:gust ~ ~ ~ 0 0 0 0 0
 
 scoreboard players set $x player_motion.api.launch 0
