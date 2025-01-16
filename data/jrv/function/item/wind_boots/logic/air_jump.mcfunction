@@ -1,6 +1,7 @@
 advancement revoke @s only jrv:item/wind_boots/air_jump
 
 execute unless score jump_delay jrv.item.wind_boots matches 0 run return fail
+execute if predicate jrv:common/is_riding run return fail
 
 scoreboard players remove jump_delay jrv.item.wind_boots 1
 execute if entity @s[gamemode=survival] run function jrv:item/wind_boots/logic/gamemode/survival
