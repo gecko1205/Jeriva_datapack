@@ -17,6 +17,7 @@
         "minecraft:item_model": "jrv:cardboard_box/closed_box",
         "minecraft:item_name": "\"Caixa de papelão\"",
         "minecraft:rarity": "common",
+        "minecraft:tooltip_style": "jrv:normal/tooltip",
         "minecraft:consumable": {
           "consume_seconds": 0.05,
           "has_consume_particles": false,

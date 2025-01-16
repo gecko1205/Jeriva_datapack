@@ -1,1 +1,1 @@
-give @p jigsaw[item_model="jrv:straw_hat/normal",item_name='"Chapéu de palha"',rarity="epic",equippable={slot:"head",equip_sound:"item.armor.equip_generic",dispensable:true,swappable:true,damage_on_hurt:false},custom_data={item:straw_hat}] 1
+give @p jigsaw[item_model="jrv:straw_hat/normal",item_name='{"text":"Chapéu de palha","color":"gold"}',tooltip_style="jrv:exclusive/tooltip",equippable={slot:"head",equip_sound:"item.armor.equip_generic",dispensable:true,swappable:true,damage_on_hurt:false},custom_data={item:straw_hat}] 1
