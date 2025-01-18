@@ -16,7 +16,7 @@
     "components": {
       "minecraft:max_stack_size": 1,
       "minecraft:item_model": "jrv:sculk_bottle/empty",
-      "minecraft:item_name": "\"Frasco de sculk\"",
+      "minecraft:item_name": "\"Frasco de Sculk\"",
       "minecraft:tooltip_style": "jrv:normal/tooltip",
       "minecraft:custom_data": {
         "item": "sculk_bottle",

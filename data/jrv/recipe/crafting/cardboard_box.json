@@ -15,7 +15,7 @@
       "components": {
         "minecraft:custom_data": "{item:cardboard_box}",
         "minecraft:item_model": "jrv:cardboard_box/closed_box",
-        "minecraft:item_name": "\"Caixa de papelão\"",
+        "minecraft:item_name": "\"Caixa de Papelão\"",
         "minecraft:rarity": "common",
         "minecraft:tooltip_style": "jrv:normal/tooltip",
         "minecraft:consumable": {
