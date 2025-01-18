@@ -41,7 +41,7 @@
           "minecraft:item_model": "jrv:sculk_bottle/empty",
           "minecraft:item_name": "\"Frasco de sculk\"",
           "minecraft:tooltip_style": "jrv:normal/tooltip",
-          "rarity":"common",
+          "rarity":"uncommon",
           "minecraft:custom_data": {
             "item": "sculk_bottle",
             "full": false
