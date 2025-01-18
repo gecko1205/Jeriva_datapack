@@ -1,8 +1,8 @@
 advancement revoke @s only jrv:item/adrenaline_syringe/hurt
 execute unless score timer jrv.item.adrenaline_syringe matches 1200.. run return fail
 
-execute store result score health jrv.item.adrenaline_syringe run data get entity @s Health 10
-execute unless score health jrv.item.adrenaline_syringe matches ..50 run return fail
+execute store result score health jrv.item.adrenaline_syringe run data get entity @s Health
+execute unless score health jrv.item.adrenaline_syringe matches ..5 run return fail
 
 effect give @s minecraft:speed 4 6 true
 effect give @s minecraft:night_vision 4 0 true
