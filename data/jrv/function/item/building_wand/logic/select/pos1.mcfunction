@@ -1,5 +1,5 @@
 scoreboard players add pos jrv.item.building_wand 1
-title @s actionbar {"text":"Primeira posição definida","color":"gold"}
+title @s actionbar {"translate":"jrv.item.building_wand.first_position","color":"gold"}
 item modify entity @s weapon.mainhand jrv:building_wand/pos2
 playsound minecraft:entity.arrow.hit_player block @a ~ ~ ~
 

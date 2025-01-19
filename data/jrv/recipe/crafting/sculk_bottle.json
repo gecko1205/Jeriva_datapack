@@ -16,7 +16,7 @@
     "components": {
       "minecraft:max_stack_size": 1,
       "minecraft:item_model": "jrv:sculk_bottle/empty",
-      "minecraft:item_name": "\"Frasco de Sculk\"",
+      "minecraft:item_name": "{\"translate\":\"jrv.item.sculk_bottle\"}",
       "minecraft:tooltip_style": "jrv:normal/tooltip",
       "minecraft:custom_data": {
         "item": "sculk_bottle",
@@ -33,7 +33,7 @@
         "cooldown_group": "sculk_bottle"
       },
       "minecraft:lore": [
-        "{\"text\": \"Vazio\",\"color\": \"gray\",\"italic\": false}"
+        "{\"translate\":\"jrv.item.sculk_bottle.empty\",\"color\":\"gray\",\"italic\":false}"
       ],
       "rarity": "uncommon"
     },

@@ -1,1 +1,1 @@
-give @p bow[custom_data={item:precision_bow},item_model="jrv:precision_bow/normal",item_name='{"text":"Arco de Precisão","color":"gold"}',tooltip_style="jrv:exclusive/tooltip"] 1
+give @p bow[custom_data={item:precision_bow},item_model="jrv:precision_bow/normal",item_name='{"translate":"jrv.item.precision_bow","color":"gold"}',tooltip_style="jrv:exclusive/tooltip"] 1

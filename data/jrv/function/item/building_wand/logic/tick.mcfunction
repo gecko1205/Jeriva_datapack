@@ -4,7 +4,7 @@ execute if score pos jrv.item.building_wand matches ..1 as @a[gamemode=!spectato
 
 execute as @e[type=item_display,tag=jrv.item.building_wand.block] at @s unless block ~ ~ ~ #replaceable run kill @s
 
-execute if score pos jrv.item.building_wand matches 2 as @a[gamemode=!spectator,nbt={SelectedItem:{id:"minecraft:jigsaw",components:{"minecraft:custom_data":{item:building_wand}}}}] if items entity @s weapon.offhand * unless items entity @s weapon.offhand wheat unless items entity @s weapon.offhand *[bees|banner_patterns|container|pot_decorations] run title @s actionbar {"text":"Use para preencher com bloco escolhido","color":"green"}
+execute if score pos jrv.item.building_wand matches 2 as @a[gamemode=!spectator,nbt={SelectedItem:{id:"minecraft:jigsaw",components:{"minecraft:custom_data":{item:building_wand}}}}] if items entity @s weapon.offhand * unless items entity @s weapon.offhand wheat unless items entity @s weapon.offhand *[bees|banner_patterns|container|pot_decorations] run title @s actionbar {"translate":"jrv.item.building_wand.use_to_fill","color":"green"}
 
 execute if score pos jrv.item.building_wand matches 1 unless entity @a[gamemode=!spectator,nbt={SelectedItem:{id:"minecraft:jigsaw",components:{"minecraft:custom_data":{item:building_wand}}}}] if entity @n[type=item_display,tag=jrv.item.building_wand.display] run function jrv:item/building_wand/logic/select/too_far
 

@@ -39,7 +39,7 @@
         "components": {
           "minecraft:max_stack_size": 1,
           "minecraft:item_model": "jrv:sculk_bottle/empty",
-          "minecraft:item_name": "\"Frasco de Sculk\"",
+          "minecraft:item_name": "{\"translate\":\"jrv.item.sculk_bottle\"}",
           "minecraft:tooltip_style": "jrv:normal/tooltip",
           "rarity":"uncommon",
           "minecraft:custom_data": {
@@ -57,7 +57,7 @@
             "cooldown_group": "sculk_bottle"
           },
           "minecraft:lore": [
-            "{\"text\": \"Vazio\",\"color\": \"gray\",\"italic\": false}"
+            "{\"translate\":\"jrv.item.sculk_bottle.empty\",\"color\":\"gray\",\"italic\":false}"
           ]    
         }
       }
@@ -68,31 +68,13 @@
     "entity": "this",
     "lore": [
       [
-        {
-          "text": "Nível ",
-          "color": "gray",
-          "italic": false
-        },
-        {
-          "nbt": "levels",
-          "storage": "jrv:item.sculk_bottle",
-          "color": "#7cfc24",
-          "italic": false
-        }
+        {"translate":"jrv.item.sculk_bottle.level","color":"white","italic":false,
+        "with":[{"nbt":"levels","storage":"jrv:item.sculk_bottle","color":"#7cfc24"}]}
       ],
       [
         {
-          "text": "Segure ",
-          "color": "dark_gray",
-          "italic": false
-        },
-        {
-          "keybind": "key.sneak",
-          "color": "dark_gray",
-          "italic": false
-        },
-        {
-          "text": " para consertar equipamentos",
+          "translate":"jrv.item.sculk_bottle.sneak",
+          "with":[{"keybind":"key.sneak"}],
           "color": "dark_gray",
           "italic": false
         }

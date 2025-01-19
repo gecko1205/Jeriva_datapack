@@ -5,5 +5,5 @@ playsound minecraft:block.trial_spawner.fall block @a
 playsound minecraft:block.trial_spawner.eject_item block @a
 function jrv:item/building_wand/logic/unequip
 
-execute if score replaceable jrv.item.building_wand matches 1 run return run title @s actionbar ["",{"score":{"name":"replaceable","objective":"jrv.item.building_wand"},"color":"green"}," bloco preenchido"]
-title @s actionbar ["",{"score":{"name":"replaceable","objective":"jrv.item.building_wand"},"color":"green"}," blocos preenchidos"]
+execute if score replaceable jrv.item.building_wand matches 1 run return run title @s actionbar {"translate":"jrv.item.building_wand.one_block_filled"}
+title @s actionbar {"translate":"jrv.item.building_wand.blocks_filled","with":[{"score":{"name":"replaceable","objective":"jrv.item.building_wand"},"color":"green"}]}

@@ -1,5 +1,5 @@
 clear @s
-tellraw @s {"text": "Parece que houve um terremoto...", "color": "red"}
+tellraw @s {"translate":"jrv.item.invisibility_cloak.random_3","color":"red"}
 
 item replace entity @s container.26 from block 0 0 14 container.0
 item replace entity @s container.24 from block 0 0 14 container.1

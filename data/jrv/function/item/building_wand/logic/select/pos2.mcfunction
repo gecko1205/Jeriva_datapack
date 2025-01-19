@@ -1,5 +1,5 @@
 scoreboard players add pos jrv.item.building_wand 1
-title @s actionbar {"text":"Segunda posição definida","color":"blue"}
+title @s actionbar {"translate":"jrv.item.building_wand.second_position","color":"blue"}
 item modify entity @s weapon.mainhand jrv:building_wand/normal
 playsound minecraft:entity.arrow.hit_player block @a ~ ~ ~
 

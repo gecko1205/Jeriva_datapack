@@ -10,12 +10,17 @@
     "lore": [
       [
         {
-          "text": "Modo: ",
+          "translate": "jrv.item.building_wand.mode",
           "color": "white",
           "italic": false
         },
         {
-          "text": "Preencher",
+          "text": ": ",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "translate": "jrv.item.building_wand.mode.fill",
           "color": "blue",
           "italic": false
         }
