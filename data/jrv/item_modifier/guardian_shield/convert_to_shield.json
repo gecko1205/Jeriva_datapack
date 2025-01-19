@@ -9,11 +9,5 @@
         "item": "guardian_shield",
         "broken": false
       }
-    },
-    {
-        "function": "minecraft:set_components",
-        "components": {
-          "minecraft:rarity": "epic"
-        }
-      }
+    }
   ]
