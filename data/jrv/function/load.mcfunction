@@ -21,6 +21,7 @@ scoreboard players set 24000 jrv.constant 24000
 
 scoreboard objectives add jrv.time_since_player_hurt dummy
 scoreboard objectives add jrv.time_since_hurt dummy
+scoreboard objectives add jrv.health health
 
 execute in overworld run forceload add 0 0
 execute in the_nether run forceload add 0 0
