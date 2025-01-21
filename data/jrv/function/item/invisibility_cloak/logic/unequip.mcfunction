@@ -26,4 +26,4 @@ effect clear @s resistance
 #execute if predicate jrv:item/invisibility_cloak/has_nausea run scoreboard players set cooldown jrv.item.invisibility_cloak 1200
 execute if predicate jrv:item/invisibility_cloak/has_nausea run return run schedule function jrv:item/invisibility_cloak/logic/kill 1t
 tag @s remove jrv.item.invisibility_cloak.wearing
-tag @s remove jrv.core.player.ignore_totem
+tag @s remove jrv.core.item.totem_of_undying.ignore
