@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"criteria": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:totem_of_undying"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "jrv:core/item/totem_of_undying/update"
+	}
+}
