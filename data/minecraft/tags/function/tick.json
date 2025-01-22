@@ -2,6 +2,7 @@
     "values": [
         "jrv:tick",
         "jrv:core/player/tick",
+        "jrv:core/item/totem_of_undying/tick",
         "jrv:item/building_wand/logic/tick",
         "jrv:item/echo_sword/logic/tick",
         "jrv:item/magnet/logic/tick",

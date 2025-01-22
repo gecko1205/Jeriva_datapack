@@ -1,0 +1,1 @@
+execute as @a if items entity @s weapon.* totem_of_undying run function jrv:core/item/totem_of_undying/holding
