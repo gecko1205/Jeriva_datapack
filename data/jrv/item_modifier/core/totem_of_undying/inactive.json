@@ -10,7 +10,25 @@
 				"has_consume_particles": false
 			},
 			"minecraft:use_remainder": {
-				"id": "minecraft:totem_of_undying"
+				"id": "minecraft:totem_of_undying",
+				"components": {
+					"item_model": "jrv:core/inactive_totem_of_undying",
+					"custom_data": {"replenish":true},
+					"minecraft:consumable": {
+						"consume_seconds": 2,
+						"animation": "bow",
+						"sound": "minecraft:intentionally_empty",
+						"has_consume_particles": false
+					},		
+					"minecraft:use_cooldown": {
+						"seconds": 1
+					},
+					"!death_protection": {},
+					"lore":[
+						"{\"translate\": \"jrv.core.item.totem_of_undying.use_to_activate\",\"color\": \"gray\",\"italic\": false}",
+						"{\"translate\": \"jrv.core.item.totem_of_undying.consumes_experience\",\"color\": \"dark_gray\",\"italic\": false, \"with\":[\"10\"]}"
+					]
+				}
 			},
 			"minecraft:use_cooldown": {
 				"seconds": 1
@@ -26,6 +44,12 @@
 				"translate": "jrv.core.item.totem_of_undying.use_to_activate",
 				"color": "gray",
 				"italic": false
+			},
+			{
+				"translate": "jrv.core.item.totem_of_undying.consumes_experience",
+				"color": "dark_gray",
+				"italic": false,
+				"with": ["10"]
 			}
 		],
 		"mode": "replace_all"
