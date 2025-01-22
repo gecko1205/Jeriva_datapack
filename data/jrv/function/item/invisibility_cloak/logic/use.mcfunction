@@ -15,6 +15,4 @@ execute in jrv:vault run function jrv:item/invisibility_cloak/logic/save_invento
 function jrv:item/invisibility_cloak/logic/disable_slots
 
 scoreboard players set timer jrv.item.invisibility_cloak 1
-
 tag @s add jrv.item.invisibility_cloak.wearing
-tag @s add jrv.core.item.totem_of_undying.ignore
