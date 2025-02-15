@@ -1,0 +1,83 @@
+{
+	"description": {
+		"translate": "jrv.enchantment.hematophagy"
+	},
+	"supported_items": "#enchantable/weapon",
+	"weight": 1,
+	"max_level": 1,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"anvil_cost": 9999,
+	"slots": [
+		"mainhand"
+	],
+	"effects": {
+		"minecraft:post_attack": [
+			{
+				"requirements": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"nbt": "{Health:0f}"
+					}
+				},
+				"effect": {
+					"type": "minecraft:all_of",
+					"effects": [
+						{
+							"type": "minecraft:apply_mob_effect",
+							"to_apply": "minecraft:instant_health",
+							"min_duration": 0.05,
+							"max_duration": 0.05,
+							"min_amplifier": 0,
+							"max_amplifier": 0
+						},
+						{
+							"type": "minecraft:apply_mob_effect",
+							"to_apply": "minecraft:saturation",
+							"min_duration": 0.08,
+							"max_duration": 0.08,
+							"min_amplifier": 0.1,
+							"max_amplifier": 0.1
+						},
+						{
+							"type": "minecraft:run_function",
+							"function": "jrv:item/final_judgment/logic/kill"
+						}
+					]
+				},
+				"enchanted": "attacker",
+				"affected": "attacker"
+			}
+		],
+		"minecraft:hit_block": [
+			{
+				"requirements": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"mainhand": {
+									"components": {
+										"minecraft:item_model": "jrv:final_judgment/bloody"
+									}
+								}
+							}
+						}
+					}
+				],
+				"effect": {
+					"type": "minecraft:run_function",
+					"function": "jrv:item/final_judgment/logic/clean"
+				}
+			}
+		]
+	}
+}

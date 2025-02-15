@@ -1,0 +1,2 @@
+item modify entity @s weapon.mainhand {"function": "minecraft:set_components","components": {"minecraft:item_model": "jrv:final_judgment/normal"}}
+playsound minecraft:item.axe.scrape block @s ~ ~ ~ 0.66 1.8
