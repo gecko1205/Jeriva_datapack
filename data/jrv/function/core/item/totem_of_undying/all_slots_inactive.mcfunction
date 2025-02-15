@@ -34,7 +34,10 @@ execute if items entity @s container.32 totem_of_undying run item modify entity 
 execute if items entity @s container.33 totem_of_undying run item modify entity @s container.33 jrv:core/totem_of_undying/inactive
 execute if items entity @s container.34 totem_of_undying run item modify entity @s container.34 jrv:core/totem_of_undying/inactive
 execute if items entity @s container.35 totem_of_undying run item modify entity @s container.35 jrv:core/totem_of_undying/inactive
+execute if items entity @s weapon.offhand totem_of_undying run item modify entity @s weapon.offhand jrv:core/totem_of_undying/inactive
 execute if items entity @s armor.head totem_of_undying run item modify entity @s armor.head jrv:core/totem_of_undying/inactive
 execute if items entity @s armor.chest totem_of_undying run item modify entity @s armor.chest jrv:core/totem_of_undying/inactive
 execute if items entity @s armor.legs totem_of_undying run item modify entity @s armor.legs jrv:core/totem_of_undying/inactive
 execute if items entity @s armor.feet totem_of_undying run item modify entity @s armor.feet jrv:core/totem_of_undying/inactive
+
+advancement revoke @s only jrv:core/item/totem_of_undying/update

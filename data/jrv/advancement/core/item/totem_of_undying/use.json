@@ -1,15 +1,16 @@
 {
-	"criteria": {
-		"totem": {
-			"trigger": "minecraft:used_totem",
-			"conditions": {
-				"item": {
-					"items": "minecraft:totem_of_undying"
-				}
-			}
-		}
-	},
-	"rewards": {
-		"function": "jrv:core/item/totem_of_undying/use"
-	}
-}
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "totem_of_undying"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "jrv:core/item/totem_of_undying/use"
+    }
+  }
+  
