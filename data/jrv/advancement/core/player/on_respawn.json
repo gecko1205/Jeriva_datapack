@@ -1,0 +1,36 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:all_of",
+						"terms": [
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"nbt": "{Tags:[\"jrv.player.dead\"]}"
+								}
+							},
+							{
+								"condition": "minecraft:inverted",
+								"term": {
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"nbt": "{Health:0.0f}"
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "jrv:core/player/on_respawn"
+	}
+}

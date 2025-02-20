@@ -1,5 +1,6 @@
 {
     "values": [
-        "jrv:load"
+        "jrv:load",
+        "jrv:core/dimension/the_nether/toxicity/loop"
     ]
 }

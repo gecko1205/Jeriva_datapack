@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"req": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"to": "minecraft:the_nether"
+			}
+		}
+	},
+	"rewards": {
+		"function": "jrv:core/item/elytra/disable"
+	}
+}

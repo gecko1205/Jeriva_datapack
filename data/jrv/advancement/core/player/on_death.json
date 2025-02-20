@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"player": {
+					"nbt": "{Health:0.0f}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "jrv:core/player/on_death"
+	}
+}

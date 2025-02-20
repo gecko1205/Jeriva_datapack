@@ -1,0 +1,27 @@
+{
+	"criteria": {
+		"criteria": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": {
+					"flags": {
+						"is_flying": false
+					},
+					"slots": {
+						"armor.chest": {
+							"items": "minecraft:elytra"
+						}
+					}
+				},
+				"items": [
+					{
+						"items": "minecraft:elytra"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "jrv:core/item/elytra/update"
+	}
+}
