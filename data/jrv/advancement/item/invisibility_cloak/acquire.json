@@ -1,15 +1,21 @@
 {
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "entity": {
-          "type": "minecraft:wither"
-        }
-      }
-    }
-  },
-  "rewards": {
-    "function": "jrv:item/invisibility_cloak/acquire"
-  }
+	"criteria": {
+		"req": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:custom_data": {
+								"item": "invisibility_cloak"
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "jrv:item/invisibility_cloak/acquire"
+	}
 }

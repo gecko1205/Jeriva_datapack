@@ -1,0 +1,43 @@
+{
+	"criteria": {
+		"req": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"position": {
+								"x": {
+									"min": -23,
+									"max": -21
+								},
+								"y": {
+									"min": 85,
+									"max": 87
+								},
+								"z": {
+									"min": 103,
+									"max": 105
+								}
+							},
+							"dimension": "minecraft:overworld",
+							"block": {
+								"blocks": "minecraft:end_portal_frame"
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": "minecraft:ender_eye"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "jrv:structure/thing/activate"
+	}
+}
