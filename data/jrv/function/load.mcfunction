@@ -55,6 +55,7 @@ scoreboard objectives add jrv.item.sculk_bottle dummy
 scoreboard objectives add jrv.item.adrenaline_syringe dummy
 
 scoreboard objectives add jrv.item.cardboard_box.id dummy
+scoreboard objectives add jrv.item.barometer.y dummy
 
 scoreboard objectives add jrv.item.guardian_shield dummy
 scoreboard objectives add jrv.item.guardian_shield.timer dummy

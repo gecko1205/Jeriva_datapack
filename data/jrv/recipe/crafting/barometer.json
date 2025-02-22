@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " # ",
+    "#o#",
+    " # "
+  ],
+  "key": {
+    "#": "minecraft:copper_ingot",
+    "o": "minecraft:redstone"
+  },
+  "result": {
+    "id": "minecraft:jigsaw",
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:item_model": "jrv:barometer/normal",
+      "minecraft:item_name": "{\"translate\":\"jrv.item.barometer\"}",
+      "minecraft:tooltip_style": "jrv:normal/tooltip",
+      "custom_model_data": {"floats":[12]},
+      "minecraft:custom_data": {
+        "item": "barometer"
+      },
+      "rarity": "common"
+    },
+    "count": 1
+  }
+}

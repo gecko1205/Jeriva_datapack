@@ -2,7 +2,9 @@
     "values": [
         "jrv:tick",
         "jrv:core/player/tick",
+        "jrv:core/item/compass/tick",
         "jrv:structure/thing/tick",
+        "jrv:item/barometer/logic/tick",
         "jrv:item/building_wand/logic/tick",
         "jrv:item/echo_sword/logic/tick",
         "jrv:item/magnet/logic/tick",

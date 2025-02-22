@@ -1,0 +1,1 @@
+execute as @a if items entity @s weapon.* *[custom_data={item:barometer}] at @s run function jrv:item/barometer/logic/holding

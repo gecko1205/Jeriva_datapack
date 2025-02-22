@@ -1,0 +1,1 @@
+give @s jigsaw[custom_data={item:barometer},item_model="jrv:barometer/normal",tooltip_style="jrv:normal/tooltip",item_name='{"translate":"jrv.item.barometer"}',rarity="common",max_stack_size=1,custom_model_data={"floats":[12]}] 1

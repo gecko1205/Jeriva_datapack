@@ -1,0 +1,1 @@
+execute as @a if items entity @s weapon.* compass at @s run function jrv:core/item/compass/holding
